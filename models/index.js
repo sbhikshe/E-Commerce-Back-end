@@ -15,10 +15,22 @@ Category.hasMany(Product, {
 });
 
 // Products belongToMany Tags (through ProductTag)
-Product.belongsToMany(Tag, { through: 'ProductTag' });
+Product.belongsToMany(Tag, { 
+  through: {
+  model: ProductTag,
+  //field referenced in the association must have a unique constraint placed on it. 
+  unique: false
+  },
+});
 
 // Tags belongToMany Products (through ProductTag)
-Tag.belongsToMany(Product, { through: 'ProductTag' });
+Tag.belongsToMany(Product, { 
+  through: {
+    model: ProductTag,
+    //field referenced in the association must have a unique constraint placed on it. 
+    unique: false
+  } 
+});
 
 
 module.exports = {
