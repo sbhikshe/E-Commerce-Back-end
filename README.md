@@ -19,12 +19,12 @@ This application offers an interface to manage a database for an E-Commerce appl
 
 These are video recordings of the options available to manage the database:
 
-Setup / Installation:
-[Webm link](https://drive.google.com/file/d/190rowfxvWPorYoySw7ZYlZTchgr9WDpX/view)
+Setup / Installation:\
+[Webm link](https://drive.google.com/file/d/190rowfxvWPorYoySw7ZYlZTchgr9WDpX/view)\
 [Screencastify](https://watch.screencastify.com/v/yB9a2UNDIbnA3PkFnOSL)
 
-Insomnia - API routes:
-[Webm link](https://drive.google.com/file/d/1bfVG03FhM5y6xvmpG4l5_o93sRZpk35a/view)
+Insomnia - API routes:\
+[Webm link](https://drive.google.com/file/d/1bfVG03FhM5y6xvmpG4l5_o93sRZpk35a/view)\
 [Screencastify](https://watch.screencastify.com/v/BK1oKJW5tPpAK2McJ3iq)
 
 
@@ -32,10 +32,11 @@ Insomnia - API routes:
 The application can be started from the command line.
 
 1. Set up the environment variables in the .env file (the DB_PASSWORD variable should be set to the user's SQL password)
-
+```
 DB_NAME=ecommerce_db
 DB_USER=root
 DB_PASSWORD=
+```
 
 2. Set up the 'ecommerce_db' database using the following commands: 
 
